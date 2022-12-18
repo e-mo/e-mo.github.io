@@ -3,65 +3,78 @@
     <head>
         <title>Charmander</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="../styles/common.css">
+        <link rel="stylesheet" href="../styles/charmander.css">
     </head>
     <body>
         <header>
-            <h1>Charmander</h1>
-            <nav>
-                <a href="../index.html">Make a diffferent choice</a>
-            </nav>
+            <div class="title">
+                <h1>Charmander</h1>
+                <nav>
+                    <div class="bottom_padding">
+                        <a href="../index.html">Make a diffferent choice</a>
+                    </div>
+                </nav>
+            </div>
         </header>
-        <img src="../images/charmander-200.png" alt="Charmander"
-             srcset="../images/charmander-100.png 100w,
-                     ../images/charmander-200.png 200w,
-                     ../images/charmander-300.png 300w"
-             sizes="30vw">
-        <table border="1">
-            <caption><h2>Pokedex</h2></caption>
-            <tr>
-                <th colspan="2">#</th>
-                <th>HP</th>
-                <th>Attack</th>
-                <th>Defense</th>
-                <th>Sp. Atk</th>
-                <th>Sp. Def</th>
-                <th>Speed</th>
-                <th>Cry</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>
-                    <img src="../images/charmander_icon.png" alt="Squirtle pokedex icon">
-                </td>
-                <td>39</td>
-                <td>52</td>
-                <td>43</td>
-                <td>60</td>
-                <td>50</td>
-                <td>65</td>
-                <td>
-                    <audio controls>
-                        <source src="../audio/cries/7.ogg" type="audio/ogg">
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9">
-                    <p>
-                        Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.
-                    </p>
-                </td>
-            </tr>
-        </table>
-        <h2>Noteworthy Attacks</h2>
-        <ul>
-            <li>Ember</li>
-            <li>Flamethrower</li>
-            <li>Fire Spin</li>
-        </ul>
-        <h2>Evolution</h2>
-        <ol>
-            <li>
+
+        <div class="stats">
+            <img src="../images/charmander-200.png" alt="Charmander"
+                srcset="../images/charmander-100.png 100w,
+                        ../images/charmander-200.png 200w,
+                        ../images/charmander-300.png 300w"
+                sizes="30vw">
+            <table class="pokedex_table" cellpadding="5">
+                <caption><h2 class="color_box_h2">Pokedex</h2></caption>
+                <tr>
+                    <th colspan="2">#</th>
+                    <th>HP</th>
+                    <th>Attack</th>
+                    <th>Defense</th>
+                    <th>Sp. Atk</th>
+                    <th>Sp. Def</th>
+                    <th>Speed</th>
+                    <th>Cry</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="../images/charmander_icon.png" alt="Squirtle pokedex icon">
+                    </td>
+                    <td>39</td>
+                    <td>52</td>
+                    <td>43</td>
+                    <td>60</td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>
+                        <audio controls>
+                            <source src="../audio/cries/7.ogg" type="audio/ogg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <p>
+                            Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="nw_attacks">
+            <h2 class="color_box_h2">Noteworthy Attacks</h2>
+            <ul>
+                <li>Ember</li>
+                <li>Flamethrower</li>
+                <li>Fire Spin</li>
+            </ul>
+        </div>
+
+        <div class="evolution">
+            <h2 class="color_box_h2">Evolution</h2>
+            <div class="evo_images">
                 <div>
                     <p>Charmander</p>
                     <img src="../images/charmander-200.png"
@@ -71,8 +84,6 @@
                                 ../images/charmander-300.png 300w"
                         sizes="13vw">
                 </div>
-            </li>
-            <li>
                 <div>
                     <p>Charmeleon</p>
                     <img src="../images/charmeleon-200.png"
@@ -82,8 +93,6 @@
                                 ../images/charmeleon-300.png 300w"
                         sizes="13vw">
                 </div>
-            </li>
-            <li>
                 <div>
                     <p>Charizard</p>
                     <img src="../images/charizard-200.png"
@@ -93,15 +102,19 @@
                                 ../images/charizard-300.png 300w"
                         sizes="13vw">
                 </div>
-            </li>
-        </ol>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uGtBcsAITfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <nav>
-            <a href="../index.html">Make a diffferent choice</a>
-        </nav>
+            </div>
+        </div>
+
+        <div class="videonav">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CUPX-LxAq4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <nav>
+                <a href="../index.html">Make a diffferent choice</a>
+            </nav>
+        </div>
         <footer>
-            Evan Morse
-            10/14/2022
+            <p>Evan Morse</p>
+            <p>emorse8686@gmail.com</p>
+            <p>updated: 12.17.2022</p>
         </footer>
     </body>
 </html>

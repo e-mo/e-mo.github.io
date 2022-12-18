@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(205, 255, 204);
+
+}
+
+div.title {
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+div.title > h1 {
+    font-size: 6rem;
+}
+
+div.bottom_padding {
+    padding-bottom: 10px;
+}
+
+div.stats {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 90w;
+    align-content: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+div.stats > img {
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    flex-shrink: 2;
+}
+
+h2.color_box_h2 {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    font-size: 2rem;
+    background-color: lightgreen;
+    padding: 0;
+    margin-bottom: 0;
+    border: 2px solid black;
+    text-align: center;
+}
+
+div.nw_attacks {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+div.nw_attacks li {
+    font-size: 1.5rem;
+}
+
+table.pokedex_table {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    min-width: 400px;
+    text-align: center;
+    border: 2px solid black;
+    border-top: 0;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+
+table.pokedex_table th:nth-of-type(even),
+table.pokedex_table td:nth-of-type(odd) {
+    background-color: lightgreen;    
+}
+
+table.pokedex_table th:nth-of-type(odd),
+table.pokedex_table td:nth-of-type(even) {
+    background-color: white;
+}
+
+table.pokedex_table td:first-of-type {
+    background-color: white;    
+}
+
+table.pokedex_table td:last-of-type {
+    background-color: lightgreen;
+}
+
+table.pokedex_table tr {
+    border-bottom: 1px solid black;
+}
+
+div.evolution {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 80vw;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+div.evo_images {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+div.evo_images > div {
+    margin: 0 auto;
+    width: 20vw;
+}
+
+div.evolution p {
+    border: 2px solid black;
+    padding: 1px;
+    background-color: lightgreen;
+}
+
+div.evolution img {
+    box-sizing: content-box;
+    border: 2px solid black;
+    background-color: white;
+    padding: 1rem;
+}
+
+iframe {
+    margin: auto;
+}
+
+div.videonav {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer {
+    background: lightgreen;
+}

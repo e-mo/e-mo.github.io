@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    padding-left: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 1.5rem;
+    width: 80vw;
+    margin-top: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+footer > p {
+    margin: 0;
+    padding: 0;
+}
